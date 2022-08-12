@@ -1,10 +1,11 @@
 a = []
-a = [1, 6.90, "Hello World"]
+a = [1, 6.90, "Hello World","List comprehension","Be pythonic",430]
 
 # Nested list
 b = [1, 6.90, "Hello World",[4,"hello python", 5.78,"hello python","hello python"]]
 
 c = [1,700, 6.90, 190]
+
 # b[2] = 490
 # b.append(450)
 # b.extend([3,70,"hello list"])
@@ -26,4 +27,9 @@ new_list.append(40000)
 del b[2]
 # print(new_list)
 print(b)
+
+# List comprehension examples
+# Expression: [expression for member in iterable]
+# Expression: [expression for member in iterable(if conditional)]
+
 
