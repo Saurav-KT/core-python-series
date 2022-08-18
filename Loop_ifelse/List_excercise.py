@@ -5,6 +5,7 @@ a = [1, 6.90, "Hello World","List comprehension","Be pythonic",430]
 b = [1, 6.90, "Hello World",[4,"hello python", 5.78,"hello python","hello python"]]
 
 c = [1,700, 6.90, 190]
+c.append(677)
 
 # b[2] = 490
 # b.append(450)

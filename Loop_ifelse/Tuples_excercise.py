@@ -13,19 +13,27 @@
 # z= (*x,*y)
 # print(z)
 
-#Empty Tuple
-my_tuple =()
+# Empty Tuple
+my_tuple = ()
 
-#Tuple with mixed datatype
-my_tuple= (1,2,3,4, "hello", 4.6)
+# Tuple with mixed datatype
+my_tuple = (1, 2, 3, 4, "hello", 4.6)
 
-item = ("hello", "tuples","world","do","solid","practice")
-#Tuple slicing
+item = ("hello", "tuples", "world", "do", "solid", "practice")
+# Tuple slicing
 
-print(item[3:])
+# print(item[3:])
 
 
+# nested tuple
+my_tuple = ("laptop", "keyboard", ("my", "dream", "xyz"), [3, 6, 4], {"emp_name": "Rajesh"})
+# del my_tuple[1]
+# del my_tuple
 
-#nested tuple
-my_tuple =("laptop", "keyboard",("my","dream","xyz"),[3,6,4],{"emp_name":"Rajesh"})
-# print(my_tuple)
+tuple_obj = [('IT', "App development", "800$","Remarks: requirement to be discussed "), ("IT", "Data Center", "1000$","Remarks: new facility"), ("IT", "Work space", "4000$","Remarks: under discussion ")]
+
+# for index, val in enumerate(tuple_obj):
+#     dept,func,value= val
+#     print(dept,func,value)
+for i, (x,y,z,*a) in enumerate(tuple_obj):
+    print(i,x,y,z,a)
