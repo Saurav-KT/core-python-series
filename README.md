@@ -1,1 +1,1 @@
-### This repository cotains general core python programs
+### This repository contains general core python programs
