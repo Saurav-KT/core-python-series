@@ -1,10 +1,10 @@
 a = []
-a = [1, 6.90, "Hello World","List comprehension","Be pythonic",430]
+a = [1, 6.90, "Hello World", "List comprehension", "Be pythonic", 430]
 
 # Nested list
-b = [1, 6.90, "Hello World",[4,"hello python", 5.78,"hello python","hello python"]]
+b = [1, 6.90, "Hello World", [4, "hello python", 5.78, "hello python", "hello python"]]
 
-c = [1,700, 6.90, 190]
+c = [1, 700, 6.90, 190]
 c.append(677)
 
 # b[2] = 490
@@ -33,4 +33,9 @@ print(b)
 # Expression: [expression for member in iterable]
 # Expression: [expression for member in iterable(if conditional)]
 
-
+# Define a function that doubles even numbers and leaves odd numbers as it is using list comprehension.
+input_list = [1, 2, 3, 4, 5]
+# output = [element*2 if element % 2 == 0 else element for element in input_list]
+# print(output)
+output = [(element * 2, "even") if element % 2 == 0 else (element, "odd") for element in input_list]
+print(output)

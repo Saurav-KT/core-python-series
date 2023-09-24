@@ -1,5 +1,7 @@
 # Example of Treating the functions as objects
-"Implementation details: We have assigned the function welcome to a variable. This will not call the function instead it takes the function object referenced by a welcome and creates a second name pointing to it, welcome_method."
+"""Implementation details: We have assigned the function welcome to a variable.
+This will not call the function instead it takes the function object referenced by a welcome and creates a
+second name pointing to it, welcome_method."""
 
 
 def welcome(params):
