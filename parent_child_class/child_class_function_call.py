@@ -1,4 +1,4 @@
-from class_object_excercise import *
+from parent import *
 
 vehicle_obj = vehicle('Honda','X-ADV','MoterBike')
 print(vehicle_obj.brand,vehicle_obj.model, vehicle_obj.type)
@@ -9,6 +9,3 @@ vehicle_obj.drive()
 vehicle_obj.update_fuel_level(19)
 
 print("tank size",vehicle_obj.model, vehicle_obj.fuel_level)
-
-y=add(56,78)
-print(y)

@@ -23,7 +23,7 @@ and the member functions using objects'''
 # A method is a function that takes a class instance as its first parameter. Methods are members of classes.
 
 class vehicle:
-    # This is an employee class
+
     # emp_name="Akhila Khandala"
 
     # def intro(self):

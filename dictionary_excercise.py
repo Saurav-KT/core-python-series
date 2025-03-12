@@ -69,8 +69,8 @@ Lambda function gets evaluated and returned no explicit return statement require
 # map expression
 # map(sequence,callback)
 
-empName = list(map(lambda x: '{}'.format(x["dept"]), my_dict))
-print(empName)
+emp_name = list(map(lambda x: '{}'.format(x["dept"]), my_dict))
+print(emp_name)
 #
 dict_list = list(filter(lambda x: x["dept"] == "telecom" and int(x["salaryband"][:-3]) > 20, my_dict))
 print(dict_list)
@@ -88,9 +88,9 @@ print(dict_list)
 
 # Dictionary Comprehension
 # Syntax: {key: value for (key, value) in dict.items() if condition}
-Grocery_item = {"Onion": 40, "Egg": 10, "Carrot": 50, "Rice": 70, "Apple": 240, "Sugar": 270, "Pulse": 370}
+grocery_item = {"Onion": 40, "Egg": 10, "Carrot": 50, "Rice": 70, "Apple": 240, "Sugar": 270, "Pulse": 370}
 new_dict = {}
-# for key,value in Grocery_item.items():
+# for key,value in grocery_item.items():
 #     if "Onion" in key:
 #         new_dict[key]= value *70
 #     else:
@@ -98,5 +98,5 @@ new_dict = {}
 # print(new_dict)
 
 
-new_dict = {item: (price * 170 if "Onion" in item else price) for (item, price) in Grocery_item.items()}
+new_dict = {item: (price * 170 if "Onion" in item else price) for (item, price) in grocery_item.items()}
 # print(new_dict)

@@ -7,7 +7,7 @@ you can declare new attributes and methods in the child class and override attri
 To inherit from another class includes the name of the parent class in parantheses when defining the new class.
 '''
 # The new class is called derived class and from one which it inherits is called the base class.
-from class_object_excercise import *
+from parent import vehicle
 
 
 class ElectricVehicle(vehicle):
